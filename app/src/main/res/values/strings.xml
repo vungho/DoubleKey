@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">My Key alpha 2.1</string>
+    <string name="title_activity_logined">LoginedActivity</string>
+
+    <!-- Menu list -->
+    <string name="image_menu">Image</string>
+    <string name="video_menu">Video</string>
+    <string name="music_menu">Music</string>
+    <string name="app_menu">Application</string>
+    <string name="setting_menu">Change password</string>
+    <string name="phone_menu">Contact</string>
+
+    <!-- tab name -->
+    <string name="lock">Lock</string>
+    <string name="unlock">Unlock</string>
+
+
+    <string name="selectAll">Select all</string>
+    <string name="uncheck">Uncheck all</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    
+    <string-array name="arrTab">
+        <item>Lock</item>
+        <item>Unlock</item>
+    </string-array>
+
+    <string name="load_app">Loading applications...</string>
+    <string name="load_app_mess">Wait for, please</string>
+
+    <string name="empty_select">You have not selected any item</string>
+
+    <!-- Process Database -->
+    <string name="image_process">Process images</string>
+    <string name="app_process">Process applications</string>
+    <string name="video_process">Process videos</string>
+    <string name="music_process">Process musics</string>
+    <string name="process_mess">Processing, please wait</string>
+    <string name="process_label">Process</string>
+
+    <string name="wel">Welcome!</string>
+    <string name="first_pass">Enter new Host pass</string>
+    <string name="first_pass_guest">Enter new Guest pass</string>
+    <string name="last_pass">Again enter pass</string>
+    <string name="login_statut_sucess">Logged in successfully</string>
+    <string name="login_statut_fail">Password wrong</string>
+    <string name="equal_pass">Password of Host and Guest is equal!</string>
+    <string name="title_activity_create_new_user">CreateNewUser</string>
+    <string name="mess_past_enter_host_pass">Enter past host password</string>
+    <string name="mess_enter_guest_pass">Enter host password</string>
+    <string name="changeHost">Change host password</string>
+    <string name="changeGuest">Change guest password</string>
+    <string name="anotherMess">My key alpha 2.1\nCreate by Ho Quoc Vung ATV\nMy email: hoquocvung@gmail.com</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.vungho.mykeyalpha20.Image.ImageFragmentTab2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_gridView_tab2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:numColumns="3"/>
+
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/image_fab2"
+            android:layout_margin="16dp"
+            fab:fab_addButtonSize="normal"
+            fab:fab_addButtonColorNormal="#66af49"
+            fab:fab_addButtonColorPressed="#3e6e2b"
+            fab:fab_addButtonPlusIconColor="#ffffff"
+            fab:fab_labelStyle="@style/menu_label_background"
+            android:backgroundTint="#B2000000">
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_selectAll_tab2"
+                fab:fab_title="@string/selectAll"
+                fab:fab_icon="@drawable/ic_select_all"
+                fab:fab_colorNormal="#66af49"
+                fab:fab_colorPressed="#66af49"
+                fab:fabSize="mini"/>
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_uncheck_tab2"
+                fab:fab_title="@string/uncheck"
+                fab:fab_icon="@drawable/ic_close"
+                fab:fab_colorNormal="#66af49"
+                fab:fab_colorPressed="#66af49"
+                fab:fabSize="mini"/>
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_check_tab2"
+                fab:fab_title="@string/unlock"
+                fab:fab_icon="@drawable/ic_check"
+                fab:fab_colorNormal="#66af49"
+                fab:fab_colorPressed="#66af49"
+                fab:fabSize="mini"/>
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </RelativeLayout>
+
+</FrameLayout>

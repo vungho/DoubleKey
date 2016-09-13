@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vungho.mykeyalpha20.FragmentAndActivity.MusicFragment"
+    android:id="@+id/music_mainLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.vungho.mykeyalpha20.Tab.SlidingTabLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/music_sliding">
+        </com.example.vungho.mykeyalpha20.Tab.SlidingTabLayout>
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/music_viewpager">
+        </android.support.v4.view.ViewPager>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

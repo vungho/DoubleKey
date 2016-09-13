@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Key alpha 2.0</string>
+    <string name="app_menu">Ứng dụng</string>
+    <string name="image_menu">Hình ảnh</string>
+    <string name="lock">Khóa</string>
+    <string name="music_menu">Âm nhạc</string>
+    <string name="phone_menu">Liên hệ</string>
+    <string name="setting_menu">Đổi mật khẩu</string>
+    <string name="title_activity_logined"></string>
+    <string name="unlock">Mở khóa</string>
+    <string name="video_menu">Video</string>
+
+    <string-array name="arrTab">
+        <item>Khóa</item>
+        <item>Mở khóa</item>
+    </string-array>
+    <string name="check"></string>
+    <string name="selectAll">Chọn hết</string>
+    <string name="uncheck">Hủy chọn tất cả</string>
+    <string name="load_app_mess">Xin chờ trong giây lát</string>
+    <string name="load_app">Đang tải ứng dụng</string>
+    <string name="empty_select">Bạn chưa chọn mục nào </string>
+    <string name="app_process">Xử lý ứng dụng</string>
+    <string name="image_process">Xử lý hình ảnh</string>
+    <string name="music_process">Xử lý tập tin âm thanh</string>
+    <string name="process_mess">Đang xử lý, xin chờ</string>
+    <string name="video_process">Xử lý tập tin video</string>
+    <string name="process_label">Xử lý</string>
+    <string name="wel">Xin chào!</string>
+    <string name="first_pass">Nhập mật khẩu Chủ mới</string>
+    <string name="last_pass">Nhập lại mật khẩu</string>
+    <string name="login_statut_fail">Sai mật khẩu!</string>
+    <string name="login_statut_sucess">Đăng nhập thành công</string>
+    <string name="first_pass_guest">Nhập mật khẩu khách mới</string>
+    <string name="equal_pass">Mật khẩu của chủ và Khách trùng nhau!</string>
+    <string name="anotherMess">My key alpha 2.1\nTạo bởi Hồ Quốc Vửng ATV\nEmail của tôi: hoquocvung@gmail.com</string>
+    <string name="changeGuest">Thay đổi mật khẩu khách</string>
+    <string name="changeHost">Thay đổi mật khẩu chủ</string>
+
+</resources>
